@@ -140,12 +140,12 @@
             loginForm.addEventListener("submit", async (e) => {
                 e.preventDefault();
                 let application = {
-                    name: document.getElementById("first-name"),
-                    surname: document.getElementById("last-name"),
-                    age: document.getElementById("age"),
-                    mail: document.getElementById("email"),
-                    message: document.getElementById("message"),
-                    phone: document.getElementById("phone")
+                    name: document.getElementById("first-name").value,
+                    surname: document.getElementById("last-name").value,
+                    age: document.getElementById("age").value,
+                    mail: document.getElementById("email").value,
+                    message: document.getElementById("message").value,
+                    phone: document.getElementById("phone").value
                 }
 
                 try {
