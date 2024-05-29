@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #4D00CB;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #8D1BFF;
+}
+
