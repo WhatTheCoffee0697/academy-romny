@@ -53,3 +53,32 @@ form button:hover {
     background: #8D1BFF;
 }
 
+.botton3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forward_botton {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
+
+.dropdown-botton {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100%;
+}
+

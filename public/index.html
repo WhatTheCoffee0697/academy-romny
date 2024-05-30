@@ -72,9 +72,27 @@
                     “сидіти” в телефоні чи комп’ютері без користі.</p>
             </div>
             <img src="Image/photoright.png" alt="Айті">
-
         </div>
 
+		<div class="botton3">
+        <button class="forward_botton" onclick="toggleText('text1')">Button 1</button>
+        <div id="text1" class="dropdown-botton">
+            This is the text for Button 1 AAAAAAAAAAAAAAAAAAAAAAAAAAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAAAAAAAAAAAAAA.
+        </div>
+    </div>
+    <div class="botton3">
+        <button class="forward_botton" onclick="toggleText('text2')">Button 2</button>
+        <div id="text2" class="dropdown-botton">
+            This is the text for Button 2.
+        </div>
+    </div>
+    <div class="botton3">
+        <button class="forward_botton" onclick="toggleText('text3')">Button 3</button>
+        <div id="text3" class="dropdown-botton">
+            This is the text for Button 3.
+        </div>
+    </div>
+		
         <div class="title">
             <h2>Мета Академії Професій Майбутнього - забезпечити технологічною освітою дітей у Ромнах. Фантастичні
                 Комп'ютерні курси допомагають дітям мислити нестандартно, навчають розбиратися в моделюванні,
@@ -113,6 +131,17 @@
         </form>
     </div>
 
+	<script>
+	function toggleText(id) {
+    var element = document.getElementById(id);
+    if (element.style.display === "block") {
+        element.style.display = "none";
+    } else {
+        element.style.display = "block";
+    }
+}
+	</script>
+	
 </body>
 
 </html>
