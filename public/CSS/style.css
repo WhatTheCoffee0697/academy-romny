@@ -53,9 +53,10 @@
 }
 
 .animation_logo {
+	height: auto;
 	display: grid;
 	animation-name: header;
-	position: relative;
+	position: absolute;
 	margin: 0px;
 	padding: 0px;
 	animation-iteration-count: infinite;
@@ -143,18 +144,16 @@
 /* Пролітаючий рядок */
 
 @keyframes header {
-  0% {
-	opacity: 0%;
-    margin-left: -8%;
-  }
-	30% {
-		opacity: 100%;
-	}
-	65% {
-		opacity: 100%;
-	}
-  100% {
-	opacity: 0%;
-    margin-left: 87%;
-  }
+    0% {
+        left: 0;
+        transform: translateX(0);
+    }
+    50% {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    100% {
+        left: 0;
+        transform: translateX(0);
+    }
 }
