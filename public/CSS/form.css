@@ -2,6 +2,7 @@
 /* CSS Document */
 
 .form-container {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -82,3 +83,13 @@ form button:hover {
     width: 100%;
 }
 
+.text-form {
+	padding: 15px;
+	background-color: #731EFF;
+	font-weight: 400;
+	font-size: 24px;
+	left: 480px;
+	text-align: right; 
+	position: absolute; 
+	z-index: 2;
+}
